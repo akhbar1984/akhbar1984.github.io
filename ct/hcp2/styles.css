@@ -31,5 +31,5 @@ body {font-family: Verdana, Geneva, sans-serif;background-color: #000}
 	/*Shadows*/ box-shadow: 1px 1px 4px #000; /*-moz-box-shadow: 1px 1px 4px #000; -webkit-box-shadow: 1px 1px 4px #000;*/;
 	}
 #divContent h5 {color: #fff; padding-top: 0.8em; padding-bottom: 0; padding-left: 0; padding-right: 0;}
-#divContent p {font-size: 0.7em; color: #999; padding: 0.7em; line-height: 1.4em;}
+#divContent p {text-align: justify; font-size: 0.7em; color: #999; padding: 0.7em; line-height: 1.4em;}
 #divFooter {background: #222; height: 10px; width: 700px; border-bottom: 1px solid #333;}
