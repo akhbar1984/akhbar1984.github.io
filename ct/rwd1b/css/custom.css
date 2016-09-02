@@ -128,8 +128,8 @@ li.register a:hover{
     font-size:120%;
 }
 
-.panel a:hover{
-    text-decoration: none;
+.panel a:/*hover*/{
+    text-decoration: none; /*hover not included - as discussed with mentor September 2, 2016 */
 }
 
 .panel-blue-heading{
