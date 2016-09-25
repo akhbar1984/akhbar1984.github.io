@@ -1,0 +1,59 @@
+body{
+	background-image: url("../images/bg.jpg");
+    margin-top:50px;
+}
+
+.pad-top-10{padding-top:10px;}
+.pad-top-20{padding-top:20px;}
+.pad-top-30{padding-top:30px;}
+
+.well{
+    background:#ffffff !important;
+}
+
+.top-bar{
+	height: 5px;
+	background: #F8F8F8;
+	margin-bottom: 1px;
+}
+
+.navbar{
+    margin-bottom:1px;
+}
+
+/*.navbar-default .navbar-collapse, .navbar-default .navbar-form{
+    overflow:hidden;*/
+}
+
+.navbar-collapse li:hover{
+    background:#e7e7e7;
+}
+
+a.list-group-item.active, a.list-group-item.active:hover, a.list-group-item.active:focus{
+    background:#ca2129;
+    border-color:#ca2129;
+}
+
+/*a.list-group-item.active .list-group-item-text, a.list-group-item.active:hover .list-group-item-text, a.list-group-item.active:focus .list-group-item-text{
+    color:#000000;*/
+}
+.grey-list a.list-group-item.active, .grey-list a.list-group-item.active:hover, .grey-list a.list-group-item.active:focus{
+    background:#f4f4f4;
+    border-color:#cccccc;
+    color:#666666;
+}
+
+iframe.gmap{
+    width:100%;
+    border:#cccccc 1px solid;
+    border-radius:10px;
+    padding:4px;
+}
+
+footer{
+    text-align: center;
+    padding:20px 0;
+    font-weight:bold;
+    background:#F8F8F8;
+    /*height:60px;*/   
+}
