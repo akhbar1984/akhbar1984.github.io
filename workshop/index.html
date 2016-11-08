@@ -15,7 +15,7 @@
 
 	<link href="css/bootstrap.min.css" rel="stylesheet">
 	<link rel="icon" href="img/favicon.ico">
-	<link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css">
+	<link rel="stylesheet" type="text/css" href="css/fullPage.css">
 	<link rel="stylesheet" href="css/prettyPhoto.css" type="text/css" media="screen" charset="utf-8" />
 	<link href="css/Icomoon/style.css" rel="stylesheet" type="text/css" />
 	<link href="css/rotated-gallery.css" rel="stylesheet" type="text/css" />
@@ -35,23 +35,10 @@
 	<script src="js/jquery-ui.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="js/scrolloverflow.js"></script>
-	<script type="text/javascript" src="js/jquery.fullPage.js"></script>
+	<script type="text/javascript" src="js/fullPage.js"></script>
 	<script src="js/jquery.prettyPhoto.js" type="text/javascript" charset="utf-8"></script>
 	<script type="text/javascript" src="js/rotated-gallery.js"></script>
 	<script type="text/javascript" src="js/custom.js"></script>
-
-	<script type="text/javascript">
-		$(document).ready(function() {
-			$('#fullpage').fullpage({
-				// anchors: ['1stPage', '2ndPage', '3rdPage', '4thPage', '5thPage'],
-				navigation: true,
-				navigationPosition: 'right',
-				navigationTooltips: ['Home', 'About Us', 'Course Description', 'Photo Gallery', 'Contact Us'],
-				loopTop: true,
-				loopBottom: true
-			});
-		});
-	</script>
 
 </head>
 <body>
@@ -478,6 +465,18 @@
 </div>
 
 <!-- -------------------------JS CALLING------------------------- -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$('#fullpage').fullpage({
+				// anchors: ['1stPage', '2ndPage', '3rdPage', '4thPage', '5thPage'],
+				navigation: true,
+				navigationPosition: 'right',
+				navigationTooltips: ['Home', 'About Us', 'Course Description', 'Photo Gallery', 'Contact Us'],
+				loopTop: true,
+				loopBottom: true
+			});
+		});
+	</script>
 <!-- prettyPhoto -->
 <script type="text/javascript" charset="utf-8">
   $(document).ready(function(){
